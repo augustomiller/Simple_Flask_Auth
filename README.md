@@ -2,7 +2,8 @@
  <h1>Simple Flask Auth 🌶️🔐 </h1>
 </div>
 
-### Projeto focado em autenticação com persistência em um banco de dados utilizando o Frameork Flask.
+## Projeto focado em autenticação com persistência em um banco de dados utilizando o Frameork Flask.
+
 
 ![_9f043b25-17d6-4fc3-bf74-5412db9e3944](https://github.com/augustomiller/lab_flask/assets/990877/52320f53-f134-426d-be65-410700a22aeb)
 
