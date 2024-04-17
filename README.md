@@ -69,8 +69,22 @@ exit()
 ### Links úteis
 
 https://flask-login.readthedocs.io/en/latest/
+
 https://flask-sqlalchemy.palletsprojects.com/en/3.1.x/queries/#queries-records
+
 https://docs.docker.com/desktop/install/windows-install/
+
+https://github.com/pyca/bcrypt
+```
+Exemplo encriptação
+
+>>> import bcrypt
+>>> password = b"369"
+>>> hashed = bcrypt.hashpw(password, bcrypt.gensalt())
+>>> hashed
+b'$2b$12$E3xnSe04UAplpnLqA6tqnOemClCJcAdGUB/cLmJNt32zXH0aUB9OW'
+```
+
 
 ## License
 
