@@ -41,11 +41,36 @@ db.session.add(user)
 db.session.commit()
 exit()
 ```
+Atualizando o requerimentos para receber o Banco de Dados MySQL
+```python
+pip install -r .\requirements.txt --upgrade
+```
+Levantando o container no Docker
+```python
+docker-compose up
+```
+Instale a extenção:
 
+![image](https://github.com/rocketseat-education/sample-flask-auth/assets/990877/87ec053b-1955-45de-b20d-73a25f2548f9)
+Configurar a conexão com o banco.
+
+```python
+flask shell
+```
+```python
+db.create_all()
+```
+```python
+db.session.commit()
+```
+```python
+exit()
+```
 ### Links úteis
 
 https://flask-login.readthedocs.io/en/latest/
 https://flask-sqlalchemy.palletsprojects.com/en/3.1.x/queries/#queries-records
+https://docs.docker.com/desktop/install/windows-install/
 
 ## License
 
