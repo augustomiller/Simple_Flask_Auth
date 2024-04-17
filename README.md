@@ -66,6 +66,18 @@ db.session.commit()
 ```python
 exit()
 ```
+Atualizando as tabelas do MySQL após a incersão do novo perfil:
+```python
+flask shell
+db.drop_all()
+db.session.commit()
+db.creat_all()
+db.session.commit()
+exit()
+```
+
+
+
 ### Links úteis
 
 https://flask-login.readthedocs.io/en/latest/
