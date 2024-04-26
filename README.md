@@ -87,6 +87,19 @@ https://flask-sqlalchemy.palletsprojects.com/en/3.1.x/queries/#queries-records
 https://docs.docker.com/desktop/install/windows-install/
 
 https://github.com/pyca/bcrypt
+
+
+```
+Atualizando as tabelas do B.D
+db.drop_all()
+db.session.commit()
+exti()
+
+db.create_all()
+db.session.commit()
+exti()
+```
+
 ```
 Exemplo encriptação
 
@@ -95,6 +108,7 @@ Exemplo encriptação
 >>> hashed = bcrypt.hashpw(password, bcrypt.gensalt())
 >>> hashed
 b'$2b$12$E3xnSe04UAplpnLqA6tqnOemClCJcAdGUB/cLmJNt32zXH0aUB9OW'
+
 ```
 
 
